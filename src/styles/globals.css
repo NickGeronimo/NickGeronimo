@@ -30,6 +30,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .section-min-height{
+    min-height: calc(100vh - 68px);
+  }
 }
 
 .border-fade::after {
