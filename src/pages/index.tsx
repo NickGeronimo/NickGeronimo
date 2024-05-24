@@ -18,9 +18,9 @@ Nicholas Geronimo</a></h1>
           <div className="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3"></div>
         </button>
         <nav className="hidden md:block space-x-8 text-xl" aria-label="main">
-          <a href="#work" className="link hover:opacity-90">Work</a>
+          {/* <a href="#work" className="link hover:opacity-90">Work</a> */}
           <a href="#skills" className="link hover:opacity-90">Skills</a>
-          <a href="#contact" className="link hover:opacity-90">Contact</a>
+          {/* <a href="#contact" className="link hover:opacity-90">Contact</a> */}
         </nav>
       </div>
     </section>
@@ -28,9 +28,9 @@ Nicholas Geronimo</a></h1>
         {/* <button className="text-8xl self-end px-6">&times;</button> */}
         <nav className="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
           <a href="#hero" className="w-full text-center py-8 hover:opacity-90"> Home</a>
-          <a href="#work" className="w-full text-center py-8 hover:opacity-90"> Work</a>
+          {/* <a href="#work" className="w-full text-center py-8 hover:opacity-90"> Work</a> */}
           <a href="#skills" className="w-full text-center py-8 hover:opacity-90"> Skills</a>
-          <a href="#contact" className="w-full text-center py-8 hover:opacity-90"> Contact</a>
+          {/* <a href="#contact" className="w-full text-center py-8 hover:opacity-90"> Contact</a> */}
         </nav>
       </section>
   </header>
@@ -46,9 +46,9 @@ Nicholas Geronimo</a></h1>
       <img src="./ng.png" alt="Picture" className="rounded-full md:rounded-bl-none " />
     </section>
     <hr className="mx-auto bg-white " />
-    <section id="work" className="p-6 my-12 scroll-mt-20 tallscreen:section-min-height widescreen:section-min-height">
+    {/* <section id="work" className="p-6 my-12 scroll-mt-20 tallscreen:section-min-height widescreen:section-min-height">
       <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-white">Work</h2></section>
-    <hr className="mx-auto bg-white " />
+    <hr className="mx-auto bg-white " /> */}
     <section id="skills" className="p-6 my-12 scroll-mt-20 tallscreen:section-min-height widescreen:section-min-height">
       <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-white">Skills</h2>
       <ul className="list-none grid gap-4 grid-cols-2 md:grid-cols-4 w-full max-w-screen-lg">
@@ -67,7 +67,7 @@ Nicholas Geronimo</a></h1>
 
       </ul>
       </section>
-    <hr className="mx-auto bg-white " />
+    {/* <hr className="mx-auto bg-white " />
     <section id="contact" className="p-6 my-12 scroll-mt-16 tallscreen:section-min-height widescreen:section-min-height"><h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-white">Contact</h2>
     <form action="" className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4" aria-required>
       <label htmlFor="subject">Email Me:</label>
@@ -78,10 +78,10 @@ Nicholas Geronimo</a></h1>
     </form>
     
     
-    </section>
+    </section> */}
   </main>
 
-  <footer id="footer" className="bg-teal-700 text-white text-xl">
+  <footer id="footer" className="bg-slate-950 text-white text-xl">
     <section className="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
       <address>
         Email: <a href="mailto:Nicholas.Geronimo@gmail.com">Nicholas.Geronimo@gmail.com</a>
@@ -90,9 +90,9 @@ Nicholas Geronimo</a></h1>
       </address>
 
       <nav className="hidden md:flex flex-col gap-2" aria-label="footer">
-          <a href="#work" className="link hover:opacity-90">Work</a>
+          {/* <a href="#work" className="link hover:opacity-90">Work</a> */}
           <a href="#skills" className="link hover:opacity-90">Skills</a>
-          <a href="#contact" className="link hover:opacity-90">Contact</a>      
+          {/* <a href="#contact" className="link hover:opacity-90">Contact</a>       */}
       </nav>
       <div className="flex flex-col sm:gap-2">
         <p className="text-right">Copyright &copy; <span id="year"> 2024</span> </p>
