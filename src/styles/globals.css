@@ -2,30 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
-  --foreground-rgb: 209, 232, 226;
-  --background-start-rgb: 50, 52, 51;
-  --background-end-rgb: 50, 52, 51;
+  --color-palette-1:#EDEEEB;
+  --color-palette-2:#B9962C;
+  --color-palette-3:#77878C;
+  --color-palette-4:#765344;
+  --color-palette-5:#243B40;
+  --light-shade: var(--color-palette-1);
+  --light-accent:var(--color-palette-2);
+  --main-color:var(--color-palette-3);
+  --dark-shade:var(--color-palette-4);
+  --dark-accent:var(--color-palette-5);
+  --background:var(--color-palette-5);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 209, 232, 226;
-    --background-start-rgb: 50, 52, 51;
-    --background-end-rgb: 50, 52, 51;
+    --background:var(--color-palette-5);
   }
 }
 
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+   */ 
+   background: var(--background);
+} 
 
 @layer utilities {
   .text-balance {
@@ -36,12 +46,15 @@ body {
   }
 }
 
-.border-fade::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px; /* Adjust height as needed */
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(211, 217, 212), rgba(255, 255, 255, 0));
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
 }

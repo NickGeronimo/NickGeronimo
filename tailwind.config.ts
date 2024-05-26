@@ -9,24 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'light-shade':  '#ECEDED',
-        'light-accent':'#796D6D',
-        'main-color':'#6F909C',
-        'dark-shade':'#7E4456',
-        'dark-accent':'#262C46',
+        'light-shade':  '#EDEEEB',
+        'light-accent':'#B9962C',
+        'main-color':'#77878C',
+        'dark-shade':'#765344',
+        'dark-accent':'#243B40',
 
       },
-      // rgb(33, 42, 49) - slate
-// rgb(46, 57, 68) - light-slate
-// rgb(18, 78, 102) - blue
-// rgb(116, 141, 146) - grey blue
-// rgb(211, 217, 212)
 
-// 'light-shade':  '#ECEAE2',
-// 'light-accent':'#818E8F',
-// 'main-color':'#6D8E88',
-// 'dark-shade':'#323433',
-// 'dark-accent':'#377998',
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":  "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
