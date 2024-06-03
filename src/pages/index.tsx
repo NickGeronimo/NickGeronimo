@@ -64,7 +64,7 @@ export default function Home() {
                   <li>Collaborated with the Marketing team to improve frontend development and Shopify integration.</li>
                   <li>Acted as a liaison between the Marketing and Web teams to facilitate smooth communication and project execution.</li>
                   <li>Implemented procedures to boost efficiency, including creating comprehensive documentation and introducing version control via GitHub.</li>
-                  <li>Established and managed the company's first Web internship program.</li>
+                  <li>Established and managed the web internship program.</li>
                 </ul>
               </article>
               <img src="./PrescriptionLenses.png" alt="Work Showcase photo - Fuse Lenses Prescription Page" className="rounded-sm" />
