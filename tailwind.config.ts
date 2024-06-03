@@ -9,28 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'light-shade':  '#EDEEEB',
-        'light-accent':'#B9962C',
-        'main-color':'#77878C',
-        'dark-shade':'#765344',
-        'dark-accent':'#243B40',
+        'light-shade': '#F2F0F2',
+        'main-color': '#2F84A8',
+        'dark-accent': '#263F5B',
 
       },
 
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":  "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "transparent": "transparent",
       },
-      screens:{
-        'widescreen': {'raw': '(min-aspect-ratio: 3/2)'},
-        'tallscreen': {'raw': '(min-aspect-ratio: 13/20)'},
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(min-aspect-ratio: 1/3)' },
       },
       keyframes: {
-        'open-menu':{
-          '0%': {transform: 'scaleY(0)'},
-          '80%': {transform: 'scaleY(1.2)'},
-          '100%': {transform: 'scaleY(1)'},
+        'open-menu': {
+          '0%': { transform: 'scaleY(0)' },
+          '80%': { transform: 'scaleY(1.2)' },
+          '100%': { transform: 'scaleY(1)' },
         },
       },
       animation: {

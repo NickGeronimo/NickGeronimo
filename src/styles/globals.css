@@ -5,56 +5,23 @@
 
 
 :root {
-  --color-palette-1:#EDEEEB;
-  --color-palette-2:#B9962C;
-  --color-palette-3:#77878C;
-  --color-palette-4:#765344;
-  --color-palette-5:#243B40;
-  --light-shade: var(--color-palette-1);
-  --light-accent:var(--color-palette-2);
-  --main-color:var(--color-palette-3);
-  --dark-shade:var(--color-palette-4);
-  --dark-accent:var(--color-palette-5);
-  --background:var(--color-palette-5);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background:var(--color-palette-5);
-  }
+  --light-shade: #F2F0F2;
+  --main-color: #2F84A8;
+  --dark-accent: #263F5B;
 }
 
 
 body {
-  color: rgb(var(--foreground-rgb));
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-   */ 
-   background: var(--background);
-} 
+  background: var(--light-shade);
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-  .section-min-height{
+
+  .section-min-height {
     min-height: calc(100vh - 68px);
   }
-}
-
-.carousel-container {
-  overflow: hidden;
-}
-
-.carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-  min-width: 100%;
 }
